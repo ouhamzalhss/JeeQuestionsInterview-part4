@@ -19,7 +19,8 @@
 	
 - 4 .	Nodjs : c’est la première technologie qui a introduit la programmation asynchrone en se basant sur le pattern Reactor.
 
-- 5 . Api Servlet réactive: à partir de l’API servlet 3.1+ on a des servlets avec inputs/outputs non bloquant.
+- 5 . Pouvons-nous exécuter des applications Spring Webflux sur Tomcat ?
+La seule exigence est que le serveur soit conforme à la spécification Servlet 3.1+. Cependant, les applications Spring Webflux sont généralement déployées sur des serveurs Web tels que Netty et Undertow.
 
 - 6 . Deux API pour travailler avec la programmation réactive :
   * 	Reactive Streams : Implementations ( Reactor de Spring (pivotal), Vertx de Java)
@@ -50,3 +51,6 @@
   * 	FlatMap : operateur pour convertir un élément de flux de données, retourner un flux de données par élément.
 
 - 16 .	WebClient : Api qui permet d’accéder des services distants d’une manière réactive, est une alternative au classique RestTemplate.
+
+- 17 .  Quel est le cas d'utilisation de Spring Webflux ?
+Nous devrions l'utiliser lorsque nous voulons construire des systèmes hautement concurrents avec un nombre reduit de threads.
