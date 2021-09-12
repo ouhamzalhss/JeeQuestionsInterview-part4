@@ -4,14 +4,14 @@
 
 - 1 . Deux modèles de programmation :
   * 	Modèle multi threads bloquant : 
-    *  Basé sur un pool de threads. 
-    *  Programmation impérative
+    *  Programmation impérative.
+    *  Basé sur un pool de threads.
     *  Les entrées sorties bloquants
   * 	Modèle single thread non bloquant : 
-	On a IO selector thread et des workers
-	Les entrées sorties non bloquants (NIO java 7).  
-	Je dépends à la Tence des clients
-	Programmation Réactive.
+    *  Programmation Réactive.
+    *  On a IO selector thread et des workers
+    *  Les entrées sorties non bloquants (NIO java 7).  
+    *  Je dépends à la Tence des clients.
 
 - 2 . Programmation Réactive : Modèle de programmation basé sur les événements en utilisant une séquence d’observables.
 
