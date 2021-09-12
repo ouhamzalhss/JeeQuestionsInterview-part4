@@ -41,7 +41,7 @@
   * 	Flux<T>: Un Publisher correspondant à un échange de 1 à plusieurs éléments.
   * 	Mono<T> : Un Publisher correspondant à un échange de 0 à 1 élément.
 
-- 13 .	Spring webflux : cest un alternatif reactif de spring mvc, sert à créer une application web reactive.
+- 13 .	Spring webflux : est un projet spring introduit pour prendre en charge la programmation réactive dans le Web. C'est une alternative à Spring MVC qui est basée sur Servlet, Il a été introduit pour la première fois avec Spring 5.
 
 - 14 . Operations stream:
 
