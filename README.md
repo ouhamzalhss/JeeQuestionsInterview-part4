@@ -3,11 +3,11 @@
 #### Partie 5: Programmation Réactive en Java
 
 - 1 . Deux modèles de programmation :
-  *  Modèle multi threads bloquant : 
-	Basé sur un pool de threads. 
-	Programmation impérative
-	Les entrées sorties bloquants
-  *  Modèle single thread non bloquant : 
+  * 	Modèle multi threads bloquant : 
+    *  Basé sur un pool de threads. 
+    *  Programmation impérative
+    *  Les entrées sorties bloquants
+  * 	Modèle single thread non bloquant : 
 	On a IO selector thread et des workers
 	Les entrées sorties non bloquants (NIO java 7).  
 	Je dépends à la Tence des clients
