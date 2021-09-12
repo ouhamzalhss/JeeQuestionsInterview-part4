@@ -21,9 +21,9 @@
 
 - 5 . Api Servlet réactive: à partir de l’API servlet 3.1+ on a des servlets avec inputs/outputs non bloquant.
 
-- 6 .	Deux API pour travailler avec la programmation réactive :
-  *  Reactive Streams : Implementations ( Reactor de Spring (pivotal), Vertx de Java)
-  *  Réactive X : Implementations (RxJs, RxJava)
+- 6 . Deux API pour travailler avec la programmation réactive :
+  * 	Reactive Streams : Implementations ( Reactor de Spring (pivotal), Vertx de Java)
+  * 	Réactive X : Implementations (RxJs, RxJava)
 
 - 7 . Spring WebFlux:
 
@@ -34,11 +34,11 @@
 - 10 .	Backpressure : c’est le subscriber qui va décider combien de données qu’il va recevoir.
 
 - 11 .	L’échange de données entre Publisher et Subscribe va se terminer par :
-  *  Complete : si tout se passe bien
+  *  	Complete : si tout se passe bien
   * 	Error : si il ya un problème.
 
 - 12 .	Reactor : Se compose principalement de deux types de Stream.
-  *  Flux<T>: Un Publisher correspondant à un échange de 1 à plusieurs éléments.
+  * 	Flux<T>: Un Publisher correspondant à un échange de 1 à plusieurs éléments.
   * 	Mono<T> : Un Publisher correspondant à un échange de 0 à 1 élément.
 
 - 13 .	Spring webflux : cest un alternatif reactif de spring mvc, sert à créer une application web reactive.
