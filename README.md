@@ -17,10 +17,10 @@
 
 - 3 .  Programmation Réactive : Modèle de programmation basé sur les événements en utilisant une séquence d’observables (Streams).
 
-- 4 .	Stream : Les flux de données sont simplement des quantités continues de données. Cela peut être n'importe quoi, des appels de service RESTful, des listes de données provenant d'une base de données, etc.
+- 4 .	Streams : Les flux de données sont simplement des quantités continues de données. Cela peut être n'importe quoi, des appels de service RESTful, des listes de données provenant d'une base de données, etc.
 
 - 5 . Operations sur streams.
-  * 	intermediate operation: Renvoyer un nouveau flux sur lequel un traitement ultérieur peut être effectué.
+  * 	Intermediate operation: Renvoyer un nouveau flux sur lequel un traitement ultérieur peut être effectué.
     *  map(): produit un nouveau flux après avoir appliqué une fonction à chaque élément du flux d'origine. Le nouveau flux pourrait être de type différent.
     *  filter(): cela produit un nouveau flux qui contient des éléments du flux d'origine qui réussissent un test donné (spécifié par un prédicat).
   * 	Terminal operation: Marquer le flux comme consommé, après quoi il ne peut plus être utilisé.
@@ -45,7 +45,7 @@
   *  	Complete : si tout se passe bien
   * 	Error : si il ya un problème.
 
-- 12 .	Reactor : Tst la bibliothèque réactive de choix pour Spring WebFlux. Se compose principalement de deux types de Stream.
+- 12 .	Reactor : Est la bibliothèque réactive de choix pour Spring. Se compose principalement de deux types de Stream.
   * 	Flux<T>: Un Publisher correspondant à un échange de 1 à plusieurs éléments.
   * 	Mono<T> : Un Publisher correspondant à un échange de 0 à 1 élément.
 
