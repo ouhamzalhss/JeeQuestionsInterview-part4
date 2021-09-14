@@ -11,7 +11,7 @@
     *  Programmation Réactive.
     *  IO selector thread et des workers
     *  Les entrées sorties non bloquants (NIO java 7).  
-    *  Je dépends à la Tence des clients.
+    *  Je dépends pas à la Tence des clients.
 
 - 2 .	Nodjs : c’est la première téchnologie qui a introduit la programmation asynchrone en se basant sur le pattern Reactor.
 
