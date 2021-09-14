@@ -32,7 +32,7 @@
   * 	FlatMap : FlatMap transforme chaque élément du flux en un flux d'autres objets.
 
 - 7 . Deux API pour travailler avec la programmation réactive :
-  * 	Reactive Streams : est une API pour développer des applications réactive, implementations : Reactor de Spring (pivotal), Vertx de Java.
+  * 	Reactive Streams : API pour développer des applications réactive, implementations: Reactor de Spring, Vertx de Java.
   * 	Reactive X : est une API pour développer des applications réactive, implementations (RxJs, RxJava)
 
 - 8 .	Publisher: est celui qui va émettre les données
