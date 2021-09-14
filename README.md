@@ -17,7 +17,7 @@
 
 - 3 .  Programmation Réactive : Modèle de programmation basé sur les événements en utilisant une séquence d’observables (Streams).
 
-- 4 .	Streams : Les flux de données sont simplement des quantités continues de données. Cela peut être n'importe quoi, des appels de service RESTful, des listes de données provenant d'une base de données, etc.
+- 4 .	Streams : sont simplement les flux continues de données. Cela peut être n'importe quoi, des appels de service RESTful, des listes de données provenant d'une base de données, etc.
 
 - 5 . Operations sur streams.
   * 	Intermediate operation: Renvoyer un nouveau flux sur lequel un traitement ultérieur peut être effectué.
